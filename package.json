@@ -29,7 +29,6 @@
   "homepage": "https://github.com/hasimy-as/Codebase-Express#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "chai": "^4.3.4",
     "confidence": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -47,7 +46,6 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "istanbul": "^0.4.5",
     "nodemon": "^2.0.12",
     "nyc": "^15.1.0"
   },
@@ -66,7 +64,7 @@
     "exclude": [
       "test",
       "coverage",
-      "src/helpers"
+      "src/database"
     ],
     "all": true,
     "cache": true,

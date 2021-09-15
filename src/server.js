@@ -35,3 +35,5 @@ server.listen(PORT, async (err) => {
   await connectDB(config.get('/mongo_uri'));
   logger.info(cx, `Connected to port:${PORT}`);
 });
+
+module.exports = server;

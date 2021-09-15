@@ -43,7 +43,7 @@ class UserCommand {
     const user = await User.create({
       ...payload,
       userId: uuid(),
-      email: payload.email.toLowerCase(),
+      email: payload.email,
       password: password,
     });
 
